@@ -2,8 +2,8 @@
 import os
 import traceback
 import signal
-# 51 01101001010101000100110010101111010101010001011000
-upperbound = 51
+# 49 100110010101010010001100101110110101010010010011
+upperbound = 49
 freejobs = {x for x in range(65536)}
 freecpus = {0, 2, 4, 6, 8, 10}
 children = {}
