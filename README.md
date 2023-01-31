@@ -20,7 +20,13 @@ You can follow any path as long as you don't combine red and blue edges. Circled
 ![the graph](graph.png)
 
 ## Maps
-Relevant maps can be found [here](mapgen/out).
+Relevant maps can be found here:
+* [Route 1](mapgen/route1.md)
+* [Route 2](mapgen/route2.md)
+* [Route 3](mapgen/route3.md)
+* [Route 4](mapgen/route4.md)
+* [Route 5](mapgen/route5.md)
+* [Route 6](mapgen/route6.md)
 
 ## Progression
 * Jan 24:
