@@ -13,3 +13,18 @@ The answer is 49, and there are 6 ways to do it:
 ```
 
 Where 0 means complete the level normally, and 1 means complete it with all the rings. Note that there are 48 1's and 0's in the lines above, as the way you complete the 49th level doesn't matter.
+
+## Progression
+* Jan 24:
+  * Got this idea thanks to [this video](https://www.youtube.com/watch?v=L4nUrb5BoC8), the [disasm](https://github.com/sonicretro/skdisasm/), and the [map generator](https://bsgen-new.neocities.org/).
+  * Initial lower bound is 32, and upper bound is 128.
+* Jan 25:
+  * Made a little script in Python and found a 74 level solution.
+  * None of the 44-level paths visit more than 123 patterns, which rules out any solutions shorter than 46.
+  * I rewrote the code in [C++](shortsphere.cc) and improved the upper bound to 72, 65, 64.
+  * By manually picking various initial paths I improved the upper bound to 63, 61, 60, 59, 56.
+* Jan 27: I wrote a [runner](runner.py) that allows me to do a full search on multiple threads.
+* Jan 28: 55, 54. I start the git repo.
+* Jan 29: 53, 52.
+* Jan 30: 51.
+* Jan 31: 50, 49. Search finished.
