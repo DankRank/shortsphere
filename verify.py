@@ -19,7 +19,8 @@ def solution_to_levels(sol):
         lev += 10 if x == '1' else 1
         yield lev
 
-visited = set()
-for lev in solution_to_levels(sys.argv[1]):
-    visited.update(levtopmn(lev))
-print(visited == set(range(128)))
+if __name__ == '__main__':
+    visited = set()
+    for lev in solution_to_levels(sys.argv[1]):
+        visited.update(levtopmn(lev))
+    print(visited == set(range(128)))

@@ -14,6 +14,11 @@ The answer is 49, and there are 6 ways to do it:
 
 Where 0 means complete the level normally, and 1 means complete it with all the rings. Note that there are 48 1's and 0's in the lines above, as the way you complete the 49th level doesn't matter.
 
+## Graph
+You can follow any path as long as you don't combine red and blue edges. Circled arrows mean collect all rings.
+
+![the graph](graph.png)
+
 ## Progression
 * Jan 24:
   * Got this idea thanks to [this video](https://www.youtube.com/watch?v=L4nUrb5BoC8), the [disasm](https://github.com/sonicretro/skdisasm/), and the [map generator](https://bsgen-new.neocities.org/).
