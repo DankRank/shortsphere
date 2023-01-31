@@ -19,6 +19,9 @@ You can follow any path as long as you don't combine red and blue edges. Circled
 
 ![the graph](graph.png)
 
+## Maps
+Relevant maps can be found [here](mapgen/out).
+
 ## Progression
 * Jan 24:
   * Got this idea thanks to [this video](https://www.youtube.com/watch?v=L4nUrb5BoC8), the [disasm](https://github.com/sonicretro/skdisasm/), and the [map generator](https://bsgen-new.neocities.org/).
